@@ -59,7 +59,7 @@ export class ProductsController {
         res.send(view.render());
     };
 
-    getUpdatePage = (req: Request, res: Response, next: NextFunction) => {
+    getUpdatePge = (req: Request, res: Response, next: NextFunction) => {
         debug('Petición recibida en updatePage');
         const { id } = req.params;
         try {
